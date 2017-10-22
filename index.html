@@ -12,47 +12,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>John Lee's Portfolio</title>
+    <title>John Lee</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dar fixed-top bg-dark">
-        <span class="navbar-brand mb-0 h1 text-light">My Portfolio</span>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 py-4">
+                    <h4 class="text-white">About Me</h4>
+                    <p class="text-muted">I'm a Computer Science major at Kennesaw State University. I've grown a passion for awesome UX design and I'm always looking to expand my knowledge and experience.</p>
+                    <p class="text-muted">Little more personally, I've been married for 3 years and I have a 1 year old Corgi named Hamlet. I drink lots of coffee (black), sing random things out loudly, and wrestly with my dog. All of these things contribute to my well-being and creativity. </p>
+                </div>
+                <div class="col-sm-4 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/john-lee-b26722132/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/yohl">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/0B9dtTqcak4E5a2d1OFpIQlZkRkE/view?usp=sharing">Resume</a>
+                        </li>
+                        <!-- <li>
+                            <h7 class="text-white">yolee1003@gmail.com</h7>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+            <span class="navbar-brand">My Portfolio</span>
+            <button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
 
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link active text-secondary" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary" href="/AboutMe.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary" href="/contact.html">Contact</a>
-                </li>
-            </ul>
+    <main role="main">
+        <div class="jumbotron">
+            <h1 class="display-3" id="jumboStuff">Hello, I'm John.</h1>
+            <p class="lead" id="jumboStuff">An Aspiring UX Designer.</p>
+        </div>
+
+        <div class="container">
+            <h1 id="jumboStuff">Current Projects</h1>
+            <h1 class="display-4">Book Roads</h1>
+            <p class="lead">Book Roads is a web app that facilitates textbook rentals for college students. It helps students rent out their textbooks by listing the books for other students to find. My role was to research, design and test the web pages and user functionalities. I collaborated my teammates for this class project.</p>
+            <img src="/img/renter_owner_interactions.png" class="img-fluid" alt="User Interaction">
         </div>
         
-    </nav>
-    
-
-
-        <main role="main">
-            <div class="jumbotron">
-                <h1 class="display-3" id="jumboStuff">Hello!</h1>
-                <h1 class="display-3" id="jumboStuff">I'm John, an aspiring UX designer.</h1>
-                <p></p>
-            </div>
-
-            <h1 id="jumboStuff">What I'm Working on Now</h1>
-
-            <div class="container">
-                <h1 class="display-4">Book Roads</h1>
-                <p class="lead">Book Roads is a web app that facilitates textbook rentals for college students. It helps students rent out their textbooks by listing the books and terms for other students to find. My role was to research, design and test the web pages and user functionalities. I collaborated my teammates for this class project.</p>
-                <img src="/img/renter_owner_interactions.png" class="img-fluid" alt="User Interaction">
-            </div>
-            
-        </main>
+    </main>
     
 
 
