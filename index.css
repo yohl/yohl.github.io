@@ -1,5 +1,22 @@
 #jumboStuff {
     text-align: center;
+    background-color: white;
 }
 
+#currentProj{
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
 
+#bookRoads{
+    color: white;
+    background-color: royalblue;
+    margin-bottom: 0;
+}
+
+#Dji {
+    color: white;  
+    background-color: indigo;
+    margin-bottom: 0;
+}

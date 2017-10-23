@@ -48,7 +48,7 @@
     </div>
     <div class="navbar navbar-dark bg-dark">
         <div class="container d-flex justify-content-between">
-            <span class="navbar-brand">My Portfolio</span>
+            <a href="/index.html" class="display-4 text-white">Portfolio</a>
             <button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -56,16 +56,30 @@
     </div>
 
     <main role="main">
-        <div class="jumbotron">
-            <h1 class="display-3" id="jumboStuff">Hello, I'm John.</h1>
-            <p class="lead" id="jumboStuff">An Aspiring UX Designer.</p>
+        <div class="jumbotron" id="jumboStuff">
+            <h1 class="display-2">Hello, I'm John.</h1>
+            <h1 class="display-4">An Aspiring UX Designer.<h1>
         </div>
 
-        <div class="container">
-            <h1 id="jumboStuff">Current Projects</h1>
-            <h1 class="display-4">Book Roads</h1>
-            <p class="lead">Book Roads is a web app that facilitates textbook rentals for college students. It helps students rent out their textbooks by listing the books for other students to find. My role was to research, design and test the web pages and user functionalities. I collaborated my teammates for this class project.</p>
-            <img src="/img/renter_owner_interactions.png" class="img-fluid" alt="User Interaction">
+        <!-- <div id="currentProj">
+            <h1 class="display-4">Current Projects</h1>
+        </div> -->
+        
+
+        <div class="jumbotron" id="bookRoads">
+            <div class="container">
+                <h1 class="display-4">Book Roads (Currently Working)</h1>
+                <p class="lead">Book Roads is a web app that facilitates textbook rentals for college students. It helps students rent out their textbooks by listing the books for other students to find. My role was to research, design and test the web pages and user functionalities. I collaborated my teammates for this class project.</p>
+                <a href="#" role="button" class="btn btn-outline-light btn-lg">Learn More</a>
+            </div>
+        </div>
+
+        <div class="jumbotron" id="Dji">
+            <div class="container">
+                <h1 class="display-4">DJI 4 GUI (Currently Working)</h1>
+                <p class="lead">This is a GUI designed and protoyped for my User Interface class. The objective was to make our own concept of a GUI to replace the stock one that the DJI goggles came with.  </p>
+                <a href="#" role="button" class="btn btn-outline-light btn-lg">Learn More</a>
+            </div>
         </div>
         
     </main>
