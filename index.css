@@ -9,5 +9,30 @@
     margin-bottom: 0;
 }
 
+#UCBWork{
+    background-color:royalblue;
+    text-align: center;
+}
+
+#UCBWork h1{
+    color: white;
+    
+}
+
+#UCBWork button{
+    margin-top: 15px;
+}
+
+#UCBBody{
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#UCBBody h1{
+    color: black;
+}
+
 
 
