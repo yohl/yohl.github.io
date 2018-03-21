@@ -27,14 +27,25 @@
 #UCBBody{
     margin-top: 20px;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-radius: 10px;
 }
 
-#UCBBody h1{
-    color: black;
-    font-size: 3em;
+#UCBBody h3{
+    padding-top: 15px;
+}
+
+#UCBBody ul{
+    text-align: left;
+    width: 40%;
+    margin: auto;
+}
+
+#solutionBody {
+    border: solid royalblue;
+    width: 40%;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
