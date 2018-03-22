@@ -33,12 +33,25 @@
 #UCBbrief{
     padding: 30px 0 30px 0;
     max-width: 50%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+#UCBbrief ul{
+    max-width: 60%;
     margin: auto;
     text-align: left;
 }
 
 #UCBwire{
     text-align: center;
+    
+}
+
+#UCBwire img{
+    max-width: 60%;
+    max-height: 60%;
+    padding: 20px;
 }
 
 
