@@ -1,12 +1,9 @@
 body{
     font-family: 'Raleway', sans-serif;
-    background: #31456d;
-    color: white;
 }
 
 .navbar {
     background: beige;
-    color:black;
 }
 
 .greetings{
