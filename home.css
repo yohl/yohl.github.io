@@ -1,0 +1,12 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background: beige;
+}
+
+.greetings{
+    margin: auto;
+    text-align: center;
+}
