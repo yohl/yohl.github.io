@@ -1,0 +1,12 @@
+.center{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text-next-img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
