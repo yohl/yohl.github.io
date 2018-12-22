@@ -1,7 +1,7 @@
 .center{
     display: block;
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-right: auto;
     width: 50%;
 }
@@ -9,4 +9,10 @@
 .text-next-img{
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
