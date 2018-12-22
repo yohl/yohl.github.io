@@ -1,9 +1,9 @@
 .center{
     display: block;
     margin-top: 20px;
-    margin-left: 30%;
+    margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 .text-next-img{
@@ -15,4 +15,15 @@
     width: 100%;
     max-width: 350px;
     height: auto;
-}
+
+
+/* .img-fluid{
+    margin-top: 20px;
+    max-width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    text-align: center;
+
+} */
