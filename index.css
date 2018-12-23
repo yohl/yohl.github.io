@@ -3,13 +3,17 @@ body{
     
 }
 
-.navbar {
-    background: beige;
-}
+/* .navbar {
+    background: #f74747;
+} */
 
 .greetings{
     margin: 10% auto;
     text-align: center;
+    background: #e82c2c;
+    max-width: 40%;
+    padding: 10px;
+    color: white;
 }
 
 a {
