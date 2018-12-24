@@ -15,3 +15,7 @@ body{
 a {
     font-size: 18px;
 }
+
+.navbar{
+    background: white;
+}
