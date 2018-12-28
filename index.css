@@ -24,3 +24,14 @@ a {
 img {
     float: left;
 }
+
+#center-title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: .75em;
+    margin-top: 100px;
+}
