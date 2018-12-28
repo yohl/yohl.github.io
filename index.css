@@ -19,3 +19,8 @@ a {
 .navbar{
     background: white;
 }
+
+
+img {
+    float: left;
+}
