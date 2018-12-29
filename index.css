@@ -21,9 +21,9 @@ a {
 }
 
 
-img {
+/* img {
     float: left;
-}
+} */
 
 #center-title{
     text-align: center;
@@ -38,4 +38,11 @@ footer{
 
 #project-body{
     margin-top: 60px;
+}
+
+.center{
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;
 }
