@@ -51,10 +51,15 @@
     </nav>
    
     
-    <div class="greetings container rounded border shadow-lg" id="greeting" >
-        <h1 class="display-1">Hi, I'm John.</h1>
-        <h1>I'm glad you're here.</h1>
-        <h5 class="mx-auto">*(It's still a work in progress)</h5>
+    <div class="greetings container rounded border shadow-lg">
+        <h1 class="display-1" id="hidden-1">Hi, I'm John,</h1>
+        <h1 id="hidden-2">A UXer based in Atlanta.</h1>
+        <h2 id="hidden-3">I'm glad you're here.</h2>
+        <!-- <h5 class="mx-auto">*(It's still a work in progress)</h5> -->
+    </div>
+
+    <div>
+
     </div>
 
 
@@ -64,7 +69,7 @@
 
 
     <footer>
-      <p>Handmade with a little bit of HTML, CSS/Boostrap, and JavaScript</p>
+      <p>Handmade with a little bit of HTML, CSS, and JavaScript</p>
       <p>John Lee © 2018</p>
     </footer>
 
@@ -84,9 +89,13 @@
     <!-- Optional JavaScript -->
     <script>
       $(document).ready(function(){
-        $(".greetings").fadeIn(2000);
+        $("#hidden-1").fadeIn(1100);
+        $("#hidden-2").delay(1100).fadeIn(1100);
+        $("#hidden-3").delay(2200).fadeIn(1100);
       });
     </script>
+
+
 
   </body>
 </html>

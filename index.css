@@ -8,9 +8,9 @@ body{
     text-align: center;
     background: #e82c2c;
     max-width: 65%;
+    min-height: 250px;
     padding: 10px;
     color: white;
-    display: none;
 }
 
 a {
@@ -47,3 +47,17 @@ footer{
     display:block;
     margin:auto;
 }
+
+#hidden-1 {
+    display: none;
+}
+
+#hidden-2 {
+    display: none;
+}
+
+#hidden-3 {
+    display: none;
+}
+
+
