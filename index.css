@@ -10,6 +10,7 @@ body{
     max-width: 65%;
     padding: 10px;
     color: white;
+    display: none;
 }
 
 a {
