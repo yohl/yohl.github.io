@@ -4,7 +4,7 @@ body{
 }
 
 .greetings{
-    margin: 10% auto;
+    margin: 7% auto;
     text-align: center;
     background: #e82c2c;
     max-width: 65%;
@@ -37,15 +37,15 @@ footer{
     margin-top: 100px;
 }
 
-#project-body{
-    margin-top: 60px;
-}
-
 .center{
     text-align:center;
     width:100%;
     display:block;
     margin:auto;
+}
+
+#hidden-main{
+    display: none;
 }
 
 #hidden-1 {
