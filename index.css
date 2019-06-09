@@ -12,6 +12,10 @@ body{
     text-decoration-color: #f71735;
 }
 
+.card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 
 .greetings{
@@ -153,7 +157,8 @@ footer{
 }
 
 #home-about{
-    background-color: #011627; 
+    background-color: #011627;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
 #about-body {
@@ -172,11 +177,14 @@ footer{
 }
 #halloween{
     padding: 0 10% 10% 10%;
+    
+    
 }
 
 #home-about ul {
   list-style: none; /* Remove default bullets */
   font-weight: lighter;
+  
 }
 
 #home-about ul li::before {
