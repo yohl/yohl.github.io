@@ -36,10 +36,10 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/projects.html">Projects</a>
+                <a class="nav-link" href="#scroll-point-1">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/aboutMe.html">About Me</a>
+                <a class="nav-link" href="#scroll-point-2">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://drive.google.com/file/d/1XWJQtS-HBlf0Pb5vCb6NATnqxz8azeIZ/view?usp=sharing">Resume</a>
@@ -49,7 +49,8 @@
     </nav>
 
     <div id='home-jumbotron' class='container-fluid p-0 m-0'>
-      <div id='jumbo-header' style='background-color: lightblue;'>
+      <img id='teal-poly' class='d-none d-md-block' src='./img/tealShape.svg'>
+      <div id='jumbo-header'>
         <img src='./img/redLines.svg'>
       </div>
       <div id='jumbo-body' class='container-fluid position-relative text-light'>
@@ -100,7 +101,7 @@
         </div>
       </div><!--projects-->
       <div id='scroll-point-2'></div>
-      <div id='home-about' class='container-fluid p-0 position-relative text-light'>
+      <div id='home-about' class='container-fluid position-relative text-light'>
         <div class='row'>
           <div class='col-12 col-md-6 order-md-2'>
             <div id='about-body' class='container'>
@@ -128,13 +129,34 @@
                   Annoy my wife to death!
                 </li>
               </ul>
+              <img class='img-fluid d-none d-md-block pt-4' src='./img/yellow-lines.svg'>
             </div>
           </div>
-          <div class='col-12 col-md-6 order-md-1'>
+          <div class='col-12 col-md-6 col-xl-5 order-md-1'>
             <img id='halloween' class='img-fluid' src='./img/IMG_20181031_191033.jpg'>
           </div>
         </div>
+      </div><!--Home-about-->
+      <div id='ping-me' class='container-fluid text-center p-5 d-flex flex-column justify-content-end'>
+        <h4 class='font-weight-lighter'>Thanks for tuning!</h4>
+        <h4 class='font-weight-lighter'>Ping me if you have questions.</h4>
       </div>
+
+      <footer class='m-0'>
+        <div id='footer' class='container-fluid p-4 text-light'>
+          <p class='m-0'>Made with a little bit of magic and love.</p>
+          <p class='m-0'>John Lee © 2019</p>
+          <div class='d-flex justify-content-center align-items-end'>
+            <a href='mailto:yolee1003@gmail.com'>
+              <img class='img-fluid p-2' src='./img/whiteMail.svg'>
+            </a>
+            <a href='https://www.linkedin.com/in/yohlee/'>
+              <img class='img-fluid p-2' src='./img/whiteLink.svg'>
+            </a>
+            
+          </div>
+        </div>
+      </footer>
   
     </div><!--body div-->
    
