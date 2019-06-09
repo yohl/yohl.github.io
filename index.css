@@ -74,7 +74,7 @@ footer{
 }
 #jumbo-body {
     position: relative;
-    padding-top: 20%;
+    padding-top: 15%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20%;
@@ -234,9 +234,9 @@ footer p{
         width: 30rem;
     }
     #jumbo-body{
-        min-height: 75rem;
+        min-height: 50rem;
     }
     #bg-block{
-        min-height: 75rem;
+        min-height: 50rem;
     }
 }
