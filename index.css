@@ -7,6 +7,13 @@ body{
     padding: 0;
 }
 
+#h1-red {
+    text-decoration: underline;
+    text-decoration-color: #f71735;
+}
+
+
+
 .greetings{
     margin: 7% auto;
     text-align: center;

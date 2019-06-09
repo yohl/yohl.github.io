@@ -18,7 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-  
+  <!-- The scrollable area -->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <title>Hi, I'm John!</title>
   </head>
@@ -61,8 +62,8 @@
         </div>
         <div id='t-strip' class='d-block d-sm-none'></div>
         <div id='jumbo-text' class='container'>
-          <h1>Hello!</h1>
-          <h1>My name is John.</h1>
+          <h1 id="h1-red">Hello!</h1>
+          <h1 id="h1-red">My name is John.</h1>
           <h2 class='pt-2'>I research problems.</h2>
           <h2 class=''>I design solutions.</h2>
         </div>
@@ -71,7 +72,7 @@
       <div id='scroll-point-1'></div>
       <div id='home-projects' class='container-fluid px-0'>
         <div class='container text-center'>
-          <h1 class='font-weight-bold'>Problems I've <u>solved.</u></h1>
+          <h1 class='font-weight-bold'>My Recent Projects.</h1>
           <div class="card-deck text-left pt-5">
             <div class="card">
               <img src="#" class="card-img-top" alt="...">
@@ -105,10 +106,10 @@
         <div class='row'>
           <div class='col-12 col-md-6 order-md-2'>
             <div id='about-body' class='container'>
-              <h1>The countless bags of tea,</h1>
-              <h1>Lots of sleepless nights,</h1>
-              <h1>And a whole lot of love,</h1>
-              <h1 class='font-weight-bold'>Has made me the person I am today.</h1>
+              <h1 id="h1-red">The countless bags of tea,</h1>
+              <h1 id="h1-red">Lots of sleepless nights,</h1>
+              <h1 id="h1-red">And a whole lot of love,</h1>
+              <h1 class='font-weight-bold' id="h1-red">Has made me the person I am today.</h1>
               <p class='m-0 pt-4'>I like to think that I'm a UX designer trapped in a programmer's body.
                 My technical background does help me understand and empathize with the engineers that I work with, and it helps me
                 to
@@ -120,13 +121,13 @@
               <p class='m-0 pt-5'>On a little personal note...</p>
               <ul>
                 <li>
-                  I like to wrestle with my dog, Hamlet
+                  I like to wrestle with my dog, Hamlet.
                 </li>
                 <li>
-                  Eat an unhealthy amount of pistachios
+                  Eat an unhealthy amount of pistachios.
                 </li>
                 <li>
-                  Annoy my wife to death!
+                  Annoy my wife to death.
                 </li>
               </ul>
               <img class='img-fluid d-none d-md-block pt-4' src='./img/yellow-lines.svg'>
