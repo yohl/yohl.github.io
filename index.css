@@ -154,7 +154,7 @@ footer{
 .card-deck a.btn:hover {
     background-color: #fff;
     color: #ff9f1c;
-    border: solid 2px;
+    border: solid 1px;
     border-color: #ff9f1c;
 }
 
